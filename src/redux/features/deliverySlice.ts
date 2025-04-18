@@ -1,5 +1,5 @@
-import { DeliveryOptions } from "@/app/constants/delivery";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { DeliveryOptions } from "../../constants/delivery";
 
 interface DeliveryState {
     selectedId: string | null;
