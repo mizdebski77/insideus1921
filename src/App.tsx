@@ -1,9 +1,11 @@
+import { Hero } from "./home/Header";
 
 function App() {
-
-  return (
-null
-  )
+    return (
+        <>
+            <Hero />
+        </>
+    );
 }
 
-export default App
+export default App;
