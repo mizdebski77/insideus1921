@@ -1,8 +1,8 @@
 "use client";
 import { BackgroundVideo, ContentWrapper, Header } from "./styled";
 import logo from "../../assets/WhiteLogo.png";
-import { Image } from "../../components/Image";
 import bgVideo from "../../assets/videos/bgVideo.mp4";
+import { Image } from "../../../components/Image";
 
 export const Hero = () => {
     return (

@@ -1,7 +1,5 @@
-'use client';
-import { theme } from "@/app/core/StyledComponents/theme";
+import { theme } from "../../../core/StyledComponents/theme";
 import bg from "../../assets/parallax.png";
-
 import styled from "styled-components";
 
 export const ParallaxWrapper = styled.div`
@@ -17,7 +15,7 @@ export const ParallaxContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(${bg.src});
+    background-image: url(${bg});
     box-shadow: inset 8px 8px 400px 131px rgba(0, 0, 0, 1);
     background-attachment: fixed;
     background-position: center;
