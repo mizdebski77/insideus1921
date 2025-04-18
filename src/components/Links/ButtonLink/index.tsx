@@ -14,7 +14,7 @@ export const ButtonLink: React.FC<ButtonProps> = ({
     target = "_self",
 }) => {
     return (
-        <StyledButtonLink href={href} $background={$background} target={target}>
+        <StyledButtonLink to={href} $background={$background} target={target}>
             {children}
         </StyledButtonLink>
     );

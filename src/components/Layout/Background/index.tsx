@@ -4,7 +4,7 @@ import logo from "../../../assets/Logo.png";
 export const ImageBackground = () => {
     return (
         <Wrapper>
-            <Image src={logo.src} alt="Logo" />
+            <Image src={logo} alt="Logo" />
         </Wrapper>
     );
 };
