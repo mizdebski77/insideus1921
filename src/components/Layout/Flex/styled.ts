@@ -1,7 +1,5 @@
-'use client';
-
-import { theme } from "@/app/core/StyledComponents/theme";
 import styled from "styled-components";
+import { theme } from "../../../core/StyledComponents/theme";
 
 interface WrapperProps {
     $direction?: 'row' | 'column' | 'row-reverse' | 'column-reverse';

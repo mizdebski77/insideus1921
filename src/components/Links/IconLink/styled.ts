@@ -1,7 +1,6 @@
-'use client'
-import { theme } from "@/app/core/StyledComponents/theme";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { theme } from "../../../core/StyledComponents/theme";
 interface WrapperProps {
     $colorVariant?: "main" | "second";
 }
