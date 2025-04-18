@@ -1,21 +1,25 @@
-"use client";
 import { useState, useEffect, useRef } from "react";
-import { usePathname } from "next/navigation";
+import { useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { RootState } from "@/app/redux/store";
-import { NavLinks } from "@/app/constants/NavLinks";
-import { IconNavLinks } from "@/app/constants/IconLinks";
-import { IconLink } from "@/app/components/Links/IconLink";
-import { LogoLink } from "@/app/components/Links/Logo";
 import MobileNavbar from "./MobileNav";
 import { Wrapper, LinksWrapper, IconLinksWrapper } from "./styled";
-import { TextLink } from "@/app/components/Links/TextLink";
+import { LogoLink } from "../../components/Links/Logo";
+import { IconLink } from "../../components/Links/IconLink";
+import { IconNavLinks } from "../../constants/IconLinks";
+import { TextLink } from "../../components/Links/TextLink";
+import { NavLinks } from "../../constants/NavLinks";
+import { RootState } from "../../redux/store";
 
 export default function Navigation() {
-    const pathname = usePathname();
-    const state = useSelector((state: RootState) => state);
-    const cartQuantity = state.cart.cartTotalQuantity;
-    const favQuantity = state.fav.favTotalQuantity;
+    const location = useLocation();
+    const pathname = location.pathname;
+
+    const cartQuantity = useSelector(
+        (state: RootState) => state.cart.cartTotalQuantity
+    );
+    const favQuantity = useSelector(
+        (state: RootState) => state.fav.favTotalQuantity
+    );
 
     const [scrolled, setScrolled] = useState(false);
     const [showNav, setShowNav] = useState(true);

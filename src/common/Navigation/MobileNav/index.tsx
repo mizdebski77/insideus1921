@@ -1,13 +1,13 @@
-"use client";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { MobileNav, MobileWrapper } from "../styled";
-import { NavLinks } from "@/app/constants/NavLinks";
-import { IconNavLinks } from "@/app/constants/IconLinks";
-import { IconLink } from "@/app/components/Links/IconLink";
-import { FlexLayout } from "@/app/components/Layout/Flex";
 import Hamburger from "hamburger-react";
-import { TextLink } from "@/app/components/Links/TextLink";
+import { FlexLayout } from "../../../components/Layout/Flex";
+import { NavLinks } from "../../../constants/NavLinks";
+import { TextLink } from "../../../components/Links/TextLink";
+import { IconNavLinks } from "../../../constants/IconLinks";
+import { IconLink } from "../../../components/Links/IconLink";
+
 interface MobileNavbarProps {
     scrolled: boolean;
 }
