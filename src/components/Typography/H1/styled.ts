@@ -1,6 +1,5 @@
-'use client';
-import { theme } from "@/app/core/StyledComponents/theme";
 import styled from "styled-components";
+import { theme } from "../../../core/StyledComponents/theme";
 
 export const StyledH1 = styled.h1<{
     $fontSize?: string;

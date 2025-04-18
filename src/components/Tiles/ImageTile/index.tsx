@@ -1,10 +1,9 @@
-"use client";
 import React from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 interface TileProps {
-    href: string;
+    to: string;
     width?: string;
     height?: string;
     minWidth?: string;
@@ -109,7 +108,7 @@ const TileLink = styled(Link)`
 `;
 
 export const LinkTile: React.FC<TileProps> = ({
-    href,
+    to,
     children,
     width,
     height,
@@ -125,7 +124,7 @@ export const LinkTile: React.FC<TileProps> = ({
     padding,
 }) => {
     return (
-        <TileLink href={href} passHref legacyBehavior>
+        <TileLink to={to}>
             <StyledTile
                 $width={width}
                 $height={height}

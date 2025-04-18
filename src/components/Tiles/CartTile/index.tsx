@@ -1,4 +1,5 @@
 "use client";
+import { removeFromCart } from "../../../redux/features/cartSlice";
 import { RemoveButton } from "../../Buttons/RemoveButton";
 import { Image } from "../../Image";
 import { FlexLayout } from "../../Layout/Flex";
@@ -6,7 +7,6 @@ import { GridLayout } from "../../Layout/Grid";
 import { Paragraph } from "../../Typography/Paragraph";
 import { Wrapper } from "./styled";
 import { useDispatch } from "react-redux";
-import { removeFromCart } from "@/app/redux/features/cartSlice";
 import { toast } from "react-toastify";
 
 interface ProductTileWrapper {

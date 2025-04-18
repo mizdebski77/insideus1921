@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Paragraph } from "../../Typography/Paragraph";
-import { theme } from "@/app/core/StyledComponents/theme";
+import { theme } from "../../../core/StyledComponents/theme";
 
 // Props type
 interface DeliveryTileProps {
