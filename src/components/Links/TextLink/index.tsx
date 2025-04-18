@@ -1,4 +1,3 @@
-"use client";
 
 import { StyledNavLink } from "./styled";
 
@@ -15,7 +14,7 @@ export const TextLink: React.FC<TextLinkProps> = ({
     colorVariant = "main",
 }) => {
     return (
-        <StyledNavLink href={href} $colorVariant={colorVariant}>
+        <StyledNavLink to={href} $colorVariant={colorVariant}>
             {children}
         </StyledNavLink>
     );

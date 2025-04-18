@@ -1,5 +1,3 @@
-'use client';
-
 import styled from "styled-components";
 
 interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {

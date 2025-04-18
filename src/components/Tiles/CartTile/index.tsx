@@ -1,4 +1,3 @@
-"use client";
 import { removeFromCart } from "../../../redux/features/cartSlice";
 import { RemoveButton } from "../../Buttons/RemoveButton";
 import { Image } from "../../Image";

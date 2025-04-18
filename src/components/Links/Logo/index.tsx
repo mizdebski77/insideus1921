@@ -1,4 +1,3 @@
-"use client";
 import { Span, Wrapper } from "./styled";
 
 interface LogoLinkProps {
@@ -14,7 +13,7 @@ export const LogoLink: React.FC<LogoLinkProps> = ({
 }) => {
     return (
         <Wrapper
-            href="/"
+            to="/"
             $fontSize={fontSize}
             $colorVariant={colorVariant}
             $mediaFontSize={mediaFontSize}

@@ -1,6 +1,5 @@
-'use client'
 import styled from "styled-components";
-import { theme } from "@/app/core/StyledComponents/theme";
+import { theme } from "../../core/StyledComponents/theme";
 
 export const Wrapper = styled.footer`
     display: grid;

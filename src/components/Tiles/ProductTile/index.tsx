@@ -8,7 +8,7 @@ interface ProductTileWrapper {
     price: string;
     url: string;
     imageAlt: string;
-    href: string;
+    to: string;
     onRemoveFromFav?: () => void;
     maxWidth?: string;
 }
@@ -18,12 +18,12 @@ export const ProductTile: React.FC<ProductTileWrapper> = ({
     price,
     url,
     imageAlt,
-    href,
+    to,
     onRemoveFromFav,
     maxWidth,
 }) => {
     return (
-        <Wrapper href={href}>
+        <Wrapper to={to}>
             <Image
                 src={url}
                 alt={imageAlt}

@@ -1,4 +1,3 @@
-"use client";
 import { IoTrashOutline } from "react-icons/io5";
 import { Button } from "./styled";
 

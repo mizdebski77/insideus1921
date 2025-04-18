@@ -1,4 +1,3 @@
-"use client";
 import { StyledTextarea, Wrapper, ErrorText, Label } from "./styled";
 
 interface TextareaProps {

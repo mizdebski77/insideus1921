@@ -1,4 +1,3 @@
-"use client";
 import { Span, Wrapper, IconWrapper } from "./styled";
 import { CiHeart } from "react-icons/ci";
 interface ButtonProps {

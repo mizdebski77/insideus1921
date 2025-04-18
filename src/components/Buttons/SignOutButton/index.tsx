@@ -1,14 +1,13 @@
-"use client";
 import { useTransition } from "react";
-import { useRouter } from "next/navigation";
 import { Button } from "../Button";
-import { SignOutAction } from "@/app/Auth/authActions/signOutAction";
 import { toast } from "react-toastify";
 import { Loader } from "../../Loader/styled";
+import { useNavigate } from "react-router-dom"; // Dodajemy hook z react-router-dom
+import { SignOutAction } from "../../../auth/authActions/signOutAction";
 
 export function SignOutButton() {
     const [isPending, startTransition] = useTransition();
-    const router = useRouter();
+    const navigate = useNavigate(); // Zamiast useRouter
 
     const handleSignOut = () => {
         startTransition(async () => {
@@ -16,7 +15,7 @@ export function SignOutButton() {
             if (errorMessage) {
                 toast.error(errorMessage);
             } else {
-                router.push("/");
+                navigate("/"); // Zamiast router.push("/")
                 toast.success("Wylogowano pomyślnie");
             }
         });

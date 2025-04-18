@@ -1,4 +1,3 @@
-"use client";
 import { useEffect, useState } from "react";
 import { Wrapper, Span, Quantity } from "./styled";
 
@@ -24,7 +23,7 @@ export const IconLink: React.FC<IconLinkProps> = ({
     }, []);
 
     return (
-        <Wrapper href={href} $colorVariant={colorVariant}>
+        <Wrapper to={href} $colorVariant={colorVariant}>
             {icon}
             <Span>{text}</Span>
             {isClient && typeof quantity === "number" && quantity > 0 && (

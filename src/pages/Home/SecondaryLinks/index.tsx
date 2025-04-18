@@ -13,7 +13,7 @@ export const SecondaryLinks = () => {
             mediaPadding="20px"
         >
             <LinkTile
-                href="/Marka"
+                to="/Marka"
                 backgroundImage={img5}
                 width="100%"
                 height="100%"
@@ -24,7 +24,7 @@ export const SecondaryLinks = () => {
 
             <GridLayout gap="20px" columns="1fr 2fr">
                 <LinkTile
-                    href="/Kolekcja/Plaszcze"
+                    to="/Kolekcja/Plaszcze"
                     backgroundVideo="/videos/bgVideo.mp4"
                     width="100%"
                     minHeight="400px"
@@ -36,7 +36,7 @@ export const SecondaryLinks = () => {
                 <GridLayout gap="40px">
                     <GridLayout columns="1fr 1fr" gap="40px">
                         <LinkTile
-                            href="/Regulamin"
+                            to="/Regulamin"
                             backgroundImage={img5}
                             width="100%"
                             height="100%"
@@ -94,7 +94,7 @@ export const SecondaryLinks = () => {
                         </Paragraph>
 
                         <LinkTile
-                            href="/Kolekcja/Plaszcze"
+                            to="/Kolekcja/Plaszcze"
                             backgroundVideo="/videos/bgVideo.mp4"
                             width="100%"
                             height="100%"

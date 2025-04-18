@@ -1,4 +1,3 @@
-"use client";
 import { Wrapper } from "./styled";
 
 interface FlexLayoutProps extends React.HTMLAttributes<HTMLDivElement> {

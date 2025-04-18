@@ -1,4 +1,3 @@
-"use client";
 import { StyledButton } from "./styled";
 
 interface ButtonProps {

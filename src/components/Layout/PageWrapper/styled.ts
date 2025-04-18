@@ -1,6 +1,5 @@
-'use client'
-import { theme } from "@/app/core/StyledComponents/theme";
 import styled from "styled-components";
+import { theme } from "../../../core/StyledComponents/theme";
 
 export const StyledWrapper = styled.section<{ $maxWidth?: string }>`
     max-width: ${props => props.$maxWidth || 'unset'};

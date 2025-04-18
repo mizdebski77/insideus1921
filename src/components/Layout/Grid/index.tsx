@@ -1,5 +1,3 @@
-"use client";
-
 import { Wrapper } from "./styled";
 
 interface GridLayoutProps extends React.HTMLAttributes<HTMLDivElement> {

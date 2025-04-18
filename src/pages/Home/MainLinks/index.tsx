@@ -14,7 +14,7 @@ export const MainLinks = () => {
             mediaPadding="20px"
         >
             <LinkTile
-                href="/Kolekcja/Marynarki"
+                to="/Kolekcja/Marynarki"
                 backgroundImage={img4}
                 width="100%"
                 height="100%"
@@ -26,7 +26,7 @@ export const MainLinks = () => {
 
             <GridLayout rows="1fr 1fr" gap="20px">
                 <LinkTile
-                    href="/Kolekcja/Plaszcze"
+                    to="/Kolekcja/Plaszcze"
                     backgroundVideo="/videos/bgVideo.mp4"
                     width="100%"
                     height="100%"
@@ -36,7 +36,7 @@ export const MainLinks = () => {
 
                 <GridLayout columns="1fr 1fr" gap="20px">
                     <LinkTile
-                        href="/Kolekcja/Plaszcze"
+                        to="/Kolekcja/Plaszcze"
                         backgroundVideo="/videos/bgVideo.mp4"
                         width="100%"
                         minHeight="300px"
@@ -45,7 +45,7 @@ export const MainLinks = () => {
                         Komplety
                     </LinkTile>
                     <LinkTile
-                        href="/Kolekcja/La-Haine"
+                        to="/Kolekcja/La-Haine"
                         backgroundImage={img1}
                         width="100%"
                         minHeight="400px"
