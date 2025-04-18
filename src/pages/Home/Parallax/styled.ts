@@ -1,5 +1,5 @@
 import { theme } from "../../../core/StyledComponents/theme";
-import bg from "../../assets/parallax.png";
+import bg from "../../../assets/parallax.png";
 import styled from "styled-components";
 
 export const ParallaxWrapper = styled.div`

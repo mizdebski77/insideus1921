@@ -1,12 +1,12 @@
 import Navigation from "./common/Navigation";
-import { Hero } from "./home/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
 
 function App() {
     return (
         <BrowserRouter>
             <Navigation />
-            <Hero />
+            <Home />
         </BrowserRouter>
     );
 }
