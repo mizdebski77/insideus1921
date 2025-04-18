@@ -1,7 +1,7 @@
 import { GridLayout } from "../../../components/Layout/Grid";
 import { LinkTile } from "../../../components/Tiles/ImageTile";
 import { Paragraph } from "../../../components/Typography/Paragraph";
-import img5 from "../../assets/sth2.png";
+import img5 from "../../../assets/sth2.png";
 
 export const SecondaryLinks = () => {
     return (

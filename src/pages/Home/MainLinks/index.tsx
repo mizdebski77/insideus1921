@@ -1,7 +1,7 @@
 import { GridLayout } from "../../../components/Layout/Grid";
 import { LinkTile } from "../../../components/Tiles/ImageTile";
-import img1 from "../../assets/marynarki.png";
-import img4 from "../../assets/sth.png";
+import img1 from "../../../assets/marynarki.png";
+import img4 from "../../../assets/sth.png";
 
 export const MainLinks = () => {
     return (

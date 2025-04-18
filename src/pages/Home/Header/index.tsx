@@ -1,6 +1,6 @@
 import { BackgroundVideo, ContentWrapper, Header } from "./styled";
-import logo from "../../assets/WhiteLogo.png";
-import bgVideo from "../../assets/videos/bgVideo.mp4";
+import logo from "../../../assets/WhiteLogo.png";
+import bgVideo from "../../../assets/videos/bgVideo.mp4";
 import { Image } from "../../../components/Image";
 
 export const Hero = () => {
